@@ -17,7 +17,7 @@ In order to set up the tesnet, you will need to use the following skills:
 
 ### Build Node
 
-One of the first things you would want to do is create your POA is to create your 2 node's, by using the the command line the terminal 
+One of the first things you would want to do to create your POA is to create your 2 node's first, by using the the command line the terminal 
 
 (./geth --datadir node1 accounnt new).
 Make sure you save your address, secret key , and private key. 
