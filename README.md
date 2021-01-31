@@ -43,7 +43,7 @@ You would also want to init both node's after you create your network with this 
 ---
 
 
-### Transaction 
+### Transaction Results
 
 In conclusion  POA had some minor issues trying to complete transactions, but the block chain was build successfully. 
 <img src="Screen_Shot/Transaction.PNG"/>
