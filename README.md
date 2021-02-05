@@ -35,11 +35,20 @@ You would also want to init both node's after you create your network with this 
 
 <img src="Screen_Shot/configured_genesis.jpg"/>
 
----
-### Node Activated 
 
+---
+
+### Node Activated 
+Next you would need to init node 1 and node 2 with the command line (  ./geth --datadir node1 init networkname.json ).
+
+Run the nodes in separate terminal with the command line 
+
+1. ./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
+
+2. ./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
 <img src="Screen_Shot/nodes_activated.PNG"/>
+
 ---
 
 
